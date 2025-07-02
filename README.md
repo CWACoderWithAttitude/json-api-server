@@ -4,7 +4,7 @@ Implementation is based on [https://contabo.com/blog/json-server-installation-se
 
 A startpage is generated [http://localhost:4444](http://localhost:4444)
 
-## What ypu'll get
+## What you'll get
 
 * Setup is based on [DevContainers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 * folder `bruno/` contains [bruno](https://docs.usebruno.com) requests.
