@@ -1,6 +1,6 @@
 # JSON API-Server
 Offer your test data via a REST interface.   
-Implementation is based on [https://contabo.com/blog/json-server-installation-setting-up-mock-apis/](json-server)
+Implementation is based on [https://contabo.com/blog/json-server-installation-setting-up-mock-apis/](JSON-Server Installation: Setting Up Mock APIs). Node module [json-server](https://github.com/typicode/json-server) is used to server the JSPM API
 
 A startpage is generated [http://localhost:4444](http://localhost:4444)
 
