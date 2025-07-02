@@ -12,8 +12,8 @@ services:
       - "3333:3000"
     command: >
       bash -c "sleep infinity"
-#    networks:
-#      json-server-net:
+    networks:
+      json-server-net:
 
-#networks:
-#  json-server-net:
+networks:
+  json-server-net:
