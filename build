@@ -1,0 +1,6 @@
+#!/bin/sh
+
+tag="js:latest"
+
+docker build --rm=true -t $tag -f Dockerfile.standalone2 .
+docker run --rm=true -p 5555:3000 -it $tag

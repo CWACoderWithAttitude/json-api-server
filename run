@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#echo \
+docker run -it  -p 8088:80 -v ${PWD}/data/startrek-db.json:/data/db.json  clue/json-server

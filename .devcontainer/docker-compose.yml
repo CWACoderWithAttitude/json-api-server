@@ -1,0 +1,19 @@
+services:
+  json-server:
+    container_name: json-server
+    hostname: json-server.local
+    build:
+      context: .
+      dockerfile: Dockerfile  #.standalone2
+    working_dir: /src
+    volumes:
+      - ..:/src:cached
+    ports:
+      - "3333:3000"
+    command: >
+      bash -c "sleep infinity"
+#    networks:
+#      json-server-net:
+
+#networks:
+#  json-server-net:

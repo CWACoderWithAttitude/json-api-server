@@ -1,0 +1,28 @@
+meta {
+  name: http://localhost:3000
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:4444/planets
+  body: none
+  auth: inherit
+}
+
+script:post-response {
+  const data = res.body
+  
+  const columnDefinitions = [
+    { field: "id", filter: true, floatingFilter: true },
+    { field: "name", filter: true, floatingFilter: true },
+    { field: "classification", filter: true, floatingFilter: true },
+    { field: "population", filter: true, floatingFilter: true }
+  ];
+   
+  bru.visualize('table', {
+    name: 'Planets',
+    provider: 'ag-grid',
+    props: { rowData: data, columnDefinitions: columnDefinitions }
+  });
+}

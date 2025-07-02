@@ -1,0 +1,1160 @@
+{
+  "planets": [
+    {
+      "id": 1,
+      "name": "Earth",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    },
+    {
+      "id": 2,
+      "name": "Talos IV",
+      "classification": "M-Class",
+      "location": "Talos Star Group, Alpha Quadrant",
+      "coordinates": "Talos Sector",
+      "population": "Unknown (Talosians)",
+      "government": "Talosian Collective",
+      "capital": "Underground cities",
+      "notable_features": [
+        "Home of the Talosians",
+        "Advanced telepathic species",
+        "Quarantined by Starfleet",
+        "Death penalty for visitation"
+      ],
+      "surface_composition": "Devastated surface, underground civilization",
+      "atmosphere": "Breathable for humanoids",
+      "gravity": "0.9 G"
+    },
+    {
+      "id": 3,
+      "name": "Rigel VII",
+      "classification": "M-Class",
+      "location": "Rigel System, Alpha Quadrant",
+      "coordinates": "Beta Rigel Sector",
+      "population": "Several million (various species)",
+      "government": "Rigellian Assembly",
+      "capital": "New Rigel City",
+      "notable_features": [
+        "Mining world",
+        "Dilithium deposits",
+        "Harsh warrior culture",
+        "Scene of Pike's injury"
+      ],
+      "surface_composition": "Rocky terrain, mineral rich",
+      "atmosphere": "Nitrogen-oxygen mix",
+      "gravity": "1.2 G"
+    },
+    {
+      "id": 4,
+      "name": "Risa",
+      "classification": "M-Class",
+      "location": "Risa System, Alpha Quadrant",
+      "coordinates": "Risa Sector",
+      "population": "23 million (Risians and tourists)",
+      "government": "Risian Hospitality Association",
+      "capital": "Suraya Bay",
+      "notable_features": [
+        "Premier vacation destination",
+        "Weather control grid",
+        "Hedonistic culture",
+        "Famous for jamaharon"
+      ],
+      "surface_composition": "Tropical islands and azure seas",
+      "atmosphere": "Perfect for humanoids",
+      "gravity": "0.98 G"
+    },
+    {
+      "id": 5,
+      "name": "Romulus",
+      "classification": "M-Class",
+      "location": "Romulus System, Beta Quadrant",
+      "coordinates": "Romulan Sector",
+      "population": "18 billion Romulans (pre-2387)",
+      "government": "Romulan Star Empire",
+      "capital": "Ra'tleihfi (destroyed 2387)",
+      "notable_features": [
+        "Capital of Romulan Star Empire",
+        "Twin planet with Remus",
+        "Destroyed by supernova in 2387",
+        "Home of the Romulan Senate"
+      ],
+      "surface_composition": "Varied terrain, now destroyed",
+      "atmosphere": "Was nitrogen-oxygen",
+      "gravity": "1.0 G",
+      "status": "Destroyed"
+    },
+    {
+      "id": 6,
+      "name": "Bajor",
+      "classification": "M-Class",
+      "location": "Bajor System, Alpha Quadrant",
+      "coordinates": "Bajor Sector",
+      "population": "3 billion Bajorans",
+      "government": "Bajoran Provisional Government",
+      "capital": "Dahkur Province",
+      "notable_features": [
+        "Home of the Prophets/Wormhole Aliens",
+        "Near Bajoran wormhole to Gamma Quadrant",
+        "Former Cardassian occupation",
+        "Strong spiritual culture"
+      ],
+      "surface_composition": "Diverse continents and large oceans",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G",
+      "moons": "Five moons including Jeraddo and Derna"
+    },
+    {
+      "id": 7,
+      "name": "Barisa Prime",
+      "classification": "M-Class",
+      "location": "Barisa System, Alpha Quadrant",
+      "coordinates": "Unknown sector",
+      "population": "Unknown",
+      "government": "Local planetary government",
+      "capital": "Unknown",
+      "notable_features": [
+        "Agricultural world",
+        "Trade route planet",
+        "Limited information available"
+      ],
+      "surface_composition": "Fertile plains and farmland",
+      "atmosphere": "Standard Class-M",
+      "gravity": "0.95 G"
+    },
+    {
+      "id": 8,
+      "name": "Benthos IV",
+      "classification": "Aquatic world",
+      "location": "Benthos System, Alpha Quadrant",
+      "coordinates": "Unknown sector",
+      "population": "Unknown aquatic species",
+      "government": "Aquatic collective",
+      "capital": "Underwater cities",
+      "notable_features": [
+        "Primarily ocean world",
+        "Advanced aquatic civilization",
+        "Unique underwater technology",
+        "Rare deuterium sources"
+      ],
+      "surface_composition": "95% water, small landmasses",
+      "atmosphere": "High humidity, oxygen-rich",
+      "gravity": "1.1 G"
+    },
+    {
+      "id": 9,
+      "name": "Vulcan",
+      "classification": "Desert Class-M",
+      "location": "Vulcan System (40 Eridani A), Alpha Quadrant",
+      "coordinates": "Vulcan Sector",
+      "population": "6 billion Vulcans",
+      "government": "Vulcan High Command/Science Directorate",
+      "capital": "ShiKahr",
+      "notable_features": [
+        "Home of the Vulcan species",
+        "Desert world with harsh climate",
+        "Seat of logic and philosophy",
+        "Mount Seleya and ancient monasteries"
+      ],
+      "surface_composition": "Arid deserts, mountain ranges",
+      "atmosphere": "Thin, low oxygen content",
+      "gravity": "1.4 G",
+      "temperature": "Average 45°C surface temperature"
+    },
+    {
+      "id": 10,
+      "name": "Cardassia Prime",
+      "classification": "M-Class",
+      "location": "Cardassian System, Alpha Quadrant",
+      "coordinates": "Cardassian Sector",
+      "population": "5.2 billion Cardassians",
+      "government": "Cardassian Union",
+      "capital": "Cardassia City",
+      "notable_features": [
+        "Capital of Cardassian Union",
+        "Military-industrial complex",
+        "Devastated during Dominion War",
+        "Ancient archaeological sites"
+      ],
+      "surface_composition": "Varied terrain, some desert regions",
+      "atmosphere": "Nitrogen-oxygen with higher CO2",
+      "gravity": "1.0 G",
+      "climate": "Generally warmer than Earth norm"
+    },
+    {
+      "id": 15,
+      "name": "Phantasia Giagantica",
+      "classification": "Unknown",
+      "location": "Unknown quadrant",
+      "coordinates": "Uncharted space",
+      "population": "Unknown",
+      "government": "Unknown",
+      "capital": "Unknown",
+      "notable_features": [
+        "Mysterious world",
+        "Limited exploration data",
+        "Possible artificial construct",
+        "Unusual energy signatures"
+      ],
+      "surface_composition": "Unknown composition",
+      "atmosphere": "Unknown atmospheric conditions",
+      "gravity": "Unknown gravitational field"
+    },
+    {
+      "id": 16,
+      "name": "Qo'noS",
+      "classification": "M-Class",
+      "location": "Klingon System, Beta Quadrant",
+      "coordinates": "Klingon Sector",
+      "population": "4.9 billion Klingons",
+      "government": "Klingon High Council",
+      "capital": "First City",
+      "notable_features": [
+        "Klingon homeworld",
+        "Warrior culture center",
+        "Great Hall of the High Council",
+        "Destroyed moon Praxis"
+      ],
+      "surface_composition": "Varied terrain, volcanic regions",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.24 G",
+      "climate": "Generally harsh and cold"
+    },
+    {
+      "id": 17,
+      "name": "Deep Space Nine",
+      "classification": "Space Station",
+      "location": "Bajor System, Alpha Quadrant",
+      "coordinates": "Bajor Sector",
+      "population": "300-2000 residents",
+      "government": "Starfleet/Bajoran Administration",
+      "capital": "Ops Center",
+      "notable_features": [
+        "Former Cardassian mining station",
+        "Gateway to Gamma Quadrant",
+        "Dominion War strategic point",
+        "Terok Nor (original name)"
+      ],
+      "surface_composition": "Artificial construct",
+      "atmosphere": "Life support systems",
+      "gravity": "Artificial gravity"
+    },
+    {
+      "id": 18,
+      "name": "Rura Penthe",
+      "classification": "Asteroid Prison",
+      "location": "Klingon Space, Beta Quadrant",
+      "coordinates": "Rura Penthe Sector",
+      "population": "Unknown prisoners and guards",
+      "government": "Klingon Empire Prison Authority",
+      "capital": "Main Prison Complex",
+      "notable_features": [
+        "Klingon prison asteroid",
+        "Alien's graveyard",
+        "Dilithium mining operations",
+        "Extremely harsh conditions"
+      ],
+      "surface_composition": "Rocky asteroid with ice",
+      "atmosphere": "Thin, requires breathing apparatus",
+      "gravity": "0.8 G",
+      "climate": "Frozen, hostile environment"
+    },
+    {
+      "id": 19,
+      "name": "Betazed",
+      "classification": "M-Class",
+      "location": "Betazed System, Alpha Quadrant",
+      "coordinates": "Betazed Sector",
+      "population": "1.3 billion Betazoids",
+      "government": "Betazoid Government",
+      "capital": "Rixx",
+      "notable_features": [
+        "Home of telepathic Betazoids",
+        "Peaceful, artistic culture",
+        "Sacred pools and temples",
+        "University of Betazed"
+      ],
+      "surface_composition": "Lush continents and calm seas",
+      "atmosphere": "Clean nitrogen-oxygen",
+      "gravity": "0.9 G",
+      "climate": "Temperate and pleasant"
+    },
+    {
+      "id": 20,
+      "name": "Ferenginar",
+      "classification": "M-Class",
+      "location": "Ferengi System, Alpha Quadrant",
+      "coordinates": "Ferengi Sector",
+      "population": "10 billion Ferengi",
+      "government": "Ferengi Alliance",
+      "capital": "Ferenginar City",
+      "notable_features": [
+        "Ferengi homeworld",
+        "Center of commerce",
+        "Tower of Commerce",
+        "Rules of Acquisition origin"
+      ],
+      "surface_composition": "Swamplands and rain forests",
+      "atmosphere": "High humidity, frequent rain",
+      "gravity": "1.0 G",
+      "climate": "Tropical, constant precipitation"
+    },
+    {
+      "id": 21,
+      "name": "Andor",
+      "classification": "P-Class (Frozen)",
+      "location": "Andorian System, Alpha Quadrant",
+      "coordinates": "Andorian Sector",
+      "population": "1.3 billion Andorians",
+      "government": "Andorian Imperial Guard",
+      "capital": "Laibok",
+      "notable_features": [
+        "Andorian homeworld",
+        "Frozen moon of Andor",
+        "Ice cities and caverns",
+        "Advanced military technology"
+      ],
+      "surface_composition": "Frozen ice and rock",
+      "atmosphere": "Thin, cold",
+      "gravity": "1.0 G",
+      "climate": "Sub-arctic, perpetual winter"
+    },
+    {
+      "id": 22,
+      "name": "Tellar",
+      "classification": "M-Class",
+      "location": "Tellar System, Alpha Quadrant",
+      "coordinates": "Tellar Sector",
+      "population": "4 billion Tellarites",
+      "government": "Tellarite Assembly",
+      "capital": "Tellar Prime City",
+      "notable_features": [
+        "Tellarite homeworld",
+        "Argumentative culture",
+        "Industrial centers",
+        "Founding Federation member"
+      ],
+      "surface_composition": "Rocky continents, industrial zones",
+      "atmosphere": "Standard nitrogen-oxygen",
+      "gravity": "1.1 G",
+      "climate": "Temperate with seasonal variations"
+    },
+    {
+      "id": 23,
+      "name": "Denobula",
+      "classification": "M-Class",
+      "location": "Denobula System, Alpha Quadrant",
+      "coordinates": "Denobula Sector",
+      "population": "12 billion Denobulans",
+      "government": "Denobulan Medical Exchange",
+      "capital": "Denobula Triaxa",
+      "notable_features": [
+        "Denobulan homeworld",
+        "Advanced medical knowledge",
+        "Complex family structures",
+        "Three-month hibernation cycles"
+      ],
+      "surface_composition": "Dense population centers",
+      "atmosphere": "Standard Class-M",
+      "gravity": "0.95 G",
+      "climate": "Varied, supports large population"
+    },
+    {
+      "id": 24,
+      "name": "Kronos One",
+      "classification": "Battlecruiser",
+      "location": "Mobile, Beta Quadrant",
+      "coordinates": "Variable",
+      "population": "1000+ crew",
+      "government": "Klingon Defense Force",
+      "capital": "Bridge/Command Center",
+      "notable_features": [
+        "Klingon Chancellor's ship",
+        "Diplomatic vessel",
+        "Scene of assassination attempt",
+        "Advanced cloaking device"
+      ],
+      "surface_composition": "Duranium hull and superstructure",
+      "atmosphere": "Life support systems",
+      "gravity": "Artificial gravity"
+    },
+    {
+      "id": 25,
+      "name": "Wolf 359",
+      "classification": "Battle Site",
+      "location": "Wolf System, Alpha Quadrant",
+      "coordinates": "Wolf Sector",
+      "population": "0 (battle aftermath)",
+      "government": "None",
+      "capital": "None",
+      "notable_features": [
+        "Site of devastating Borg battle",
+        "Starfleet graveyard",
+        "39 ships destroyed",
+        "Tactical memorial"
+      ],
+      "surface_composition": "Debris field",
+      "atmosphere": "Vacuum of space",
+      "gravity": "Minimal gravitational effects"
+    },
+    {
+      "id": 26,
+      "name": "Trill",
+      "classification": "M-Class",
+      "location": "Trill System, Alpha Quadrant",
+      "coordinates": "Trill Sector",
+      "population": "650 million Trill",
+      "government": "Trill Symbiosis Commission",
+      "capital": "Leran Manev",
+      "notable_features": [
+        "Home of joined Trill species",
+        "Symbiont pools",
+        "Zhian'tara ritual sites",
+        "Ancient caves and ceremonies"
+      ],
+      "surface_composition": "Temperate landmasses and warm seas",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Warm and humid"
+    },
+    {
+      "id": 27,
+      "name": "Remus",
+      "classification": "M-Class",
+      "location": "Romulus System, Beta Quadrant",
+      "coordinates": "Romulan Sector",
+      "population": "Millions of Remans",
+      "government": "Romulan Star Empire (occupied)",
+      "capital": "Underground cities",
+      "notable_features": [
+        "Twin planet of Romulus",
+        "Reman slave labor force",
+        "Dilithium mining operations",
+        "Tidally locked to sun"
+      ],
+      "surface_composition": "One side perpetual darkness",
+      "atmosphere": "Breathable but harsh",
+      "gravity": "0.9 G",
+      "climate": "Extreme temperature variations"
+    },
+    {
+      "id": 28,
+      "name": "Galorndon Core",
+      "classification": "Hostile",
+      "location": "Neutral Zone, Alpha/Beta Quadrant",
+      "coordinates": "Galorndon Sector",
+      "population": "0 (uninhabitable)",
+      "government": "None",
+      "capital": "None",
+      "notable_features": [
+        "Electromagnetic storms",
+        "Sensor interference",
+        "Near Neutral Zone",
+        "Emergency landing site"
+      ],
+      "surface_composition": "Rocky, storm-swept surface",
+      "atmosphere": "Electrical interference",
+      "gravity": "1.2 G",
+      "climate": "Constant electromagnetic storms"
+    },
+    {
+      "id": 29,
+      "name": "Mintaka III",
+      "classification": "M-Class",
+      "location": "Mintaka System, Alpha Quadrant",
+      "coordinates": "Mintaka Sector",
+      "population": "Thousands of Mintakans",
+      "government": "Proto-Vulcan society",
+      "capital": "Village settlements",
+      "notable_features": [
+        "Proto-Vulcan civilization",
+        "Duck blind observation post",
+        "Prime Directive complications",
+        "Bronze Age technology"
+      ],
+      "surface_composition": "Mountainous terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "0.9 G",
+      "climate": "Temperate mountain climate"
+    },
+    {
+      "id": 30,
+      "name": "Delta Vega",
+      "classification": "Ice planet",
+      "location": "Delta Vega System, Alpha Quadrant",
+      "coordinates": "Delta Vega Sector",
+      "population": "Automated lithium cracking station",
+      "government": "Federation mining operation",
+      "capital": "Mining complex",
+      "notable_features": [
+        "Lithium cracking station",
+        "Kirk's exile location",
+        "Automated systems",
+        "Dangerous indigenous life"
+      ],
+      "surface_composition": "Frozen wasteland",
+      "atmosphere": "Thin, cold",
+      "gravity": "0.8 G",
+      "climate": "Perpetual ice age"
+    },
+    {
+      "id": 31,
+      "name": "Ceti Alpha V",
+      "classification": "Desert",
+      "location": "Ceti Alpha System, Alpha Quadrant",
+      "coordinates": "Ceti Alpha Sector",
+      "population": "Khan's colony (decimated)",
+      "government": "None (abandoned)",
+      "capital": "Colony ruins",
+      "notable_features": [
+        "Khan's exile planet",
+        "Ceti Alpha VI explosion aftermath",
+        "Ceti eels",
+        "Hostile desert environment"
+      ],
+      "surface_composition": "Desert wasteland",
+      "atmosphere": "Thin, dry",
+      "gravity": "0.9 G",
+      "climate": "Extreme desert conditions"
+    },
+    {
+      "id": 32,
+      "name": "Founder Homeworld",
+      "classification": "Rogue planet",
+      "location": "Omarion Nebula, Gamma Quadrant",
+      "coordinates": "Gamma Quadrant",
+      "population": "The Great Link",
+      "government": "Founders/Changelings",
+      "capital": "The Great Link",
+      "notable_features": [
+        "Changeling homeworld",
+        "The Great Link ocean",
+        "Dominion capital",
+        "Hidden in nebula"
+      ],
+      "surface_composition": "Mostly liquid changeling mass",
+      "atmosphere": "Variable",
+      "gravity": "1.0 G",
+      "climate": "Controlled by inhabitants"
+    },
+    {
+      "id": 33,
+      "name": "Cardassia IV",
+      "classification": "M-Class",
+      "location": "Cardassian Space, Alpha Quadrant",
+      "coordinates": "Cardassian Territory",
+      "population": "Millions of Cardassians",
+      "government": "Cardassian Union",
+      "capital": "Regional capital",
+      "notable_features": [
+        "Major Cardassian world",
+        "Military installations",
+        "Industrial complexes",
+        "Strategic importance"
+      ],
+      "surface_composition": "Varied terrain",
+      "atmosphere": "Standard for Cardassians",
+      "gravity": "1.0 G",
+      "climate": "Warm, arid regions"
+    },
+    {
+      "id": 34,
+      "name": "Genesis Planet",
+      "classification": "Artificial M-Class",
+      "location": "Mutara Sector, Alpha Quadrant",
+      "coordinates": "Mutara Nebula",
+      "population": "0 (destroyed)",
+      "government": "Federation scientific project",
+      "capital": "None",
+      "notable_features": [
+        "Created by Genesis Device",
+        "Rapidly evolving ecosystem",
+        "Spock's resurrection site",
+        "Unstable matrix"
+      ],
+      "surface_composition": "Artificially created terrain",
+      "atmosphere": "Artificially generated",
+      "gravity": "1.0 G",
+      "status": "Destroyed due to instability"
+    },
+    {
+      "id": 35,
+      "name": "Nimbus III",
+      "classification": "Desert",
+      "location": "Neutral Zone, Alpha Quadrant",
+      "coordinates": "Nimbus Sector",
+      "population": "Small colony of various species",
+      "government": "Tri-partite colony",
+      "capital": "Paradise City",
+      "notable_features": [
+        "Planet of Galactic Peace",
+        "Failed colonization project",
+        "Klingon-Federation-Romulan cooperation",
+        "Harsh desert conditions"
+      ],
+      "surface_composition": "Arid desert terrain",
+      "atmosphere": "Dry, dusty",
+      "gravity": "0.95 G",
+      "climate": "Desert wasteland"
+    },
+    {
+      "id": 36,
+      "name": "Borg Homeworld",
+      "classification": "Artificial",
+      "location": "Delta Quadrant",
+      "coordinates": "Unimatrix 01",
+      "population": "Billions of Borg drones",
+      "government": "Borg Collective",
+      "capital": "Central Complex",
+      "notable_features": [
+        "Borg Queen's location",
+        "Central nexus of Collective",
+        "Massive cybernetic structures",
+        "Transwarp hub network"
+      ],
+      "surface_composition": "Completely mechanized",
+      "atmosphere": "Artificial life support",
+      "gravity": "Variable artificial gravity"
+    },
+    {
+      "id": 37,
+      "name": "Ocampa",
+      "classification": "Desert",
+      "location": "Delta Quadrant",
+      "coordinates": "Ocampa System",
+      "population": "Unknown Ocampa",
+      "government": "Caretaker's Array (abandoned)",
+      "capital": "Underground cities",
+      "notable_features": [
+        "Ocampa homeworld",
+        "Protected by Caretaker",
+        "Underground civilization",
+        "Kazon contested territory"
+      ],
+      "surface_composition": "Desert wasteland surface",
+      "atmosphere": "Harsh, requires protection",
+      "gravity": "0.9 G",
+      "climate": "Arid desert with underground habitats"
+    },
+    {
+      "id": 38,
+      "name": "Kazon-Ogla Homeworld",
+      "classification": "M-Class",
+      "location": "Delta Quadrant",
+      "coordinates": "Kazon space",
+      "population": "Millions of Kazon",
+      "government": "Kazon sects",
+      "capital": "Various tribal centers",
+      "notable_features": [
+        "Kazon species origin",
+        "Tribal warfare center",
+        "Former slave world",
+        "Resource competition"
+      ],
+      "surface_composition": "Rocky terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.1 G",
+      "climate": "Harsh, semi-arid"
+    },
+    {
+      "id": 39,
+      "name": "Talaxia",
+      "classification": "M-Class",
+      "location": "Delta Quadrant",
+      "coordinates": "Talaxian space",
+      "population": "Millions of Talaxians",
+      "government": "Talaxian government",
+      "capital": "Talax City",
+      "notable_features": [
+        "Talaxian homeworld",
+        "Haakonian War site",
+        "Metreon cascade aftermath",
+        "Trading hub"
+      ],
+      "surface_composition": "Varied terrain with cities",
+      "atmosphere": "Standard Class-M",
+      "gravity": "0.95 G",
+      "climate": "Temperate"
+    },
+    {
+      "id": 40,
+      "name": "Vidiia",
+      "classification": "M-Class",
+      "location": "Delta Quadrant",
+      "coordinates": "Vidiian space",
+      "population": "Billions of Vidiians",
+      "government": "Vidiian Sodality",
+      "capital": "Medical facilities",
+      "notable_features": [
+        "Vidiian homeworld",
+        "Phage plague origin",
+        "Advanced medical technology",
+        "Organ harvesting operations"
+      ],
+      "surface_composition": "Urban medical complexes",
+      "atmosphere": "Filtered for disease control",
+      "gravity": "1.0 G",
+      "climate": "Controlled environment"
+    },
+    {
+      "id": 41,
+      "name": "Malon Prime",
+      "classification": "Polluted M-Class",
+      "location": "Delta Quadrant",
+      "coordinates": "Malon space",
+      "population": "Billions of Malon",
+      "government": "Malon Export Authority",
+      "capital": "Industrial centers",
+      "notable_features": [
+        "Malon homeworld",
+        "Heavily polluted",
+        "Antimatter waste dumping",
+        "Industrial society"
+      ],
+      "surface_composition": "Contaminated terrain",
+      "atmosphere": "Heavily polluted",
+      "gravity": "1.0 G",
+      "climate": "Toxic industrial environment"
+    },
+    {
+      "id": 42,
+      "name": "Species 8472 Fluidic Space",
+      "classification": "Fluidic realm",
+      "location": "Fluidic Space dimension",
+      "coordinates": "Extra-dimensional",
+      "population": "Unknown Species 8472",
+      "government": "Species 8472 collective",
+      "capital": "Bio-ships",
+      "notable_features": [
+        "Extra-dimensional realm",
+        "Completely organic technology",
+        "Immune to Borg assimilation",
+        "Fluid-like space"
+      ],
+      "surface_composition": "Organic bio-structures",
+      "atmosphere": "Fluidic medium",
+      "gravity": "Non-standard physics"
+    },
+    {
+      "id": 43,
+      "name": "Hirogen Alpha",
+      "classification": "M-Class",
+      "location": "Delta Quadrant",
+      "coordinates": "Hirogen space",
+      "population": "Unknown Hirogen",
+      "government": "Hirogen hunting packs",
+      "capital": "Hunting complexes",
+      "notable_features": [
+        "Hirogen homeworld",
+        "Hunter warrior culture",
+        "Communications array network",
+        "Holographic training facilities"
+      ],
+      "surface_composition": "Rugged hunting grounds",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.2 G",
+      "climate": "Varied hunting terrains"
+    },
+    {
+      "id": 44,
+      "name": "Gorn Hegemony Capital",
+      "classification": "Tropical M-Class",
+      "location": "Beta Quadrant",
+      "coordinates": "Gorn space",
+      "population": "Millions of Gorn",
+      "government": "Gorn Hegemony",
+      "capital": "Gorn cities",
+      "notable_features": [
+        "Gorn species homeworld",
+        "Reptilian civilization",
+        "Territorial conflicts with Federation",
+        "Hot, humid climate preference"
+      ],
+      "surface_composition": "Tropical jungles and swamps",
+      "atmosphere": "High humidity, oxygen-rich",
+      "gravity": "1.1 G",
+      "climate": "Hot and humid tropical"
+    },
+    {
+      "id": 45,
+      "name": "Orion Homeworld",
+      "classification": "M-Class",
+      "location": "Pi-3 Orionis System, Alpha Quadrant",
+      "coordinates": "Orion Sector",
+      "population": "Billions of Orions",
+      "government": "Orion Syndicate",
+      "capital": "Orion cities",
+      "notable_features": [
+        "Orion species homeworld",
+        "Crime syndicate operations",
+        "Slave trading center",
+        "Green-skinned humanoids"
+      ],
+      "surface_composition": "Varied terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Warm temperate"
+    },
+    {
+      "id": 46,
+      "name": "Pakled Homeworld",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Pakled space",
+      "population": "Millions of Pakleds",
+      "government": "Pakled Authority",
+      "capital": "Pakled cities",
+      "notable_features": [
+        "Pakled species homeworld",
+        "Technology scavenging culture",
+        "Deceptively simple appearance",
+        "Spacefaring civilization"
+      ],
+      "surface_composition": "Urban and industrial areas",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate"
+    },
+    {
+      "id": 47,
+      "name": "Breen Homeworld",
+      "classification": "Arctic",
+      "location": "Alpha Quadrant",
+      "coordinates": "Breen Confederacy",
+      "population": "Unknown Breen",
+      "government": "Breen Confederacy",
+      "capital": "Breen cities",
+      "notable_features": [
+        "Breen species homeworld",
+        "Extremely cold climate",
+        "Mysterious species",
+        "Dominion War allies"
+      ],
+      "surface_composition": "Frozen ice and tundra",
+      "atmosphere": "Thin, extremely cold",
+      "gravity": "0.9 G",
+      "climate": "Perpetual arctic conditions"
+    },
+    {
+      "id": 48,
+      "name": "Jem'Hadar Breeding Facilities",
+      "classification": "Artificial worlds",
+      "location": "Gamma Quadrant",
+      "coordinates": "Dominion space",
+      "population": "Jem'Hadar soldiers",
+      "government": "Dominion",
+      "capital": "Military complexes",
+      "notable_features": [
+        "Jem'Hadar creation facilities",
+        "Ketracel-white production",
+        "Military training grounds",
+        "Dominion genetic engineering"
+      ],
+      "surface_composition": "Military installations",
+      "atmosphere": "Controlled for Jem'Hadar",
+      "gravity": "Variable",
+      "climate": "Optimized for military training"
+    },
+    {
+      "id": 49,
+      "name": "Vorta Homeworld",
+      "classification": "M-Class",
+      "location": "Gamma Quadrant",
+      "coordinates": "Dominion space",
+      "population": "Millions of Vorta",
+      "government": "Dominion",
+      "capital": "Administrative centers",
+      "notable_features": [
+        "Vorta species homeworld",
+        "Dominion administrators",
+        "Cloning facilities",
+        "Founder worship sites"
+      ],
+      "surface_composition": "Administrative complexes",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate administrative zones"
+    },
+    {
+      "id": 50,
+      "name": "Bajoran Moons",
+      "classification": "Various",
+      "location": "Bajor System, Alpha Quadrant",
+      "coordinates": "Bajor Sector",
+      "population": "Millions on various moons",
+      "government": "Bajoran government",
+      "capital": "Various settlements",
+      "notable_features": [
+        "Jeraddo - forced evacuation",
+        "Derna - mining operations",
+        "Five moons total",
+        "Strategic locations"
+      ],
+      "surface_composition": "Varied by moon",
+      "atmosphere": "Variable",
+      "gravity": "Variable",
+      "climate": "Depends on specific moon"
+    },
+    {
+      "id": 51,
+      "name": "Neural",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Neural System",
+      "population": "Millions of Neurals",
+      "government": "Tribal societies",
+      "capital": "Village settlements",
+      "notable_features": [
+        "Primitive humanoid civilization",
+        "Klingon interference",
+        "Federation observation",
+        "Technology contamination"
+      ],
+      "surface_composition": "Natural terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate"
+    },
+    {
+      "id": 52,
+      "name": "Capella IV",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Capella System",
+      "population": "Thousands of Capellans",
+      "government": "Tribal hierarchy",
+      "capital": "Tribal encampments",
+      "notable_features": [
+        "Topaline mining rights",
+        "Warrior culture",
+        "Klingon-Federation competition",
+        "Tribal succession conflicts"
+      ],
+      "surface_composition": "Rocky, mineral-rich terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.1 G",
+      "climate": "Arid with seasonal variations"
+    },
+    {
+      "id": 53,
+      "name": "Organia",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Organian System",
+      "population": "Organians (energy beings)",
+      "government": "Organian Peace Treaty",
+      "capital": "Organian settlements",
+      "notable_features": [
+        "Advanced energy beings",
+        "Organian Peace Treaty site",
+        "Klingon-Federation mediation",
+        "Temporal manipulation abilities"
+      ],
+      "surface_composition": "Peaceful rural terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate and peaceful"
+    },
+    {
+      "id": 54,
+      "name": "Excalbia",
+      "classification": "Molten",
+      "location": "Alpha Quadrant",
+      "coordinates": "Excalbian System",
+      "population": "Excalbians (rock creatures)",
+      "government": "Excalbian collective",
+      "capital": "Rock formations",
+      "notable_features": [
+        "Silicon-based life forms",
+        "Good vs Evil experiments",
+        "Historical recreations",
+        "Extreme heat environment"
+      ],
+      "surface_composition": "Molten rock and lava",
+      "atmosphere": "Superheated gases",
+      "gravity": "1.3 G",
+      "climate": "Molten, volcanic"
+    },
+    {
+      "id": 55,
+      "name": "Scalos",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Scalosian System",
+      "population": "Scalosians (accelerated)",
+      "government": "Scalosian government",
+      "capital": "Scalosian cities",
+      "notable_features": [
+        "Accelerated time civilization",
+        "Volcanic water contamination",
+        "Time acceleration effects",
+        "Reproductive crisis"
+      ],
+      "surface_composition": "Volcanic terrain",
+      "atmosphere": "Contaminated with time-altering compounds",
+      "gravity": "1.0 G",
+      "climate": "Volcanic activity"
+    },
+    {
+      "id": 56,
+      "name": "Troyius",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Troyian System",
+      "population": "Millions of Troyians",
+      "government": "Troyian monarchy",
+      "capital": "Troyian cities",
+      "notable_features": [
+        "Advanced technological civilization",
+        "War with Elas",
+        "Diplomatic marriage solutions",
+        "Dilithium mining operations"
+      ],
+      "surface_composition": "Developed urban areas",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate"
+    },
+    {
+      "id": 57,
+      "name": "Elas",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Elasian System",
+      "population": "Millions of Elasians",
+      "government": "Elasian monarchy",
+      "capital": "Elasian palace",
+      "notable_features": [
+        "Warrior culture",
+        "War with Troyius",
+        "Biochemical tears",
+        "Matriarchal society elements"
+      ],
+      "surface_composition": "Varied terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate with warrior territories"
+    },
+    {
+      "id": 58,
+      "name": "Melkot Homeworld",
+      "classification": "Unknown",
+      "location": "Alpha Quadrant",
+      "coordinates": "Melkotian space",
+      "population": "Melkotians",
+      "government": "Melkotian collective",
+      "capital": "Unknown",
+      "notable_features": [
+        "Xenophobic species",
+        "Warning buoys",
+        "Mental illusion creators",
+        "Historical recreation abilities"
+      ],
+      "surface_composition": "Unknown",
+      "atmosphere": "Unknown",
+      "gravity": "Unknown",
+      "climate": "Unknown"
+    },
+    {
+      "id": 59,
+      "name": "Eminar VII",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Eminian System",
+      "population": "Millions of Eminians",
+      "government": "Eminian Union",
+      "capital": "Eminian cities",
+      "notable_features": [
+        "Computer-simulated warfare",
+        "500-year war with Vendikar",
+        "Disintegration chambers",
+        "Advanced computer systems"
+      ],
+      "surface_composition": "Urban civilizations",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate urban environment"
+    },
+    {
+      "id": 60,
+      "name": "Vendikar",
+      "classification": "M-Class",
+      "location": "Alpha Quadrant",
+      "coordinates": "Vendikarian System",
+      "population": "Millions of Vendikarians",
+      "government": "Vendikarian government",
+      "capital": "Vendikarian cities",
+      "notable_features": [
+        "Computer-simulated warfare",
+        "500-year war with Eminar VII",
+        "Virtual battle casualties",
+        "Peaceful surface appearance"
+      ],
+      "surface_composition": "Civilized terrain",
+      "atmosphere": "Standard Class-M",
+      "gravity": "1.0 G",
+      "climate": "Temperate"
+    }
+  ],
+  "people": [
+    {
+      "id": 1,
+      "name": "Antaraner"
+    },
+    {
+      "id": 2,
+      "name": "Ba'ku"
+    },
+    {
+      "id": 3,
+      "name": "Bajoraner"
+    },
+    {
+      "id": 4,
+      "name": "Cardassianer"
+    },
+    {
+      "id": 5,
+      "name": "Romulaner"
+    },
+    {
+      "id": 6,
+      "name": "Denobulaner"
+    },
+    {
+      "id": 7,
+      "name": "Ferengi"
+    },
+    {
+      "id": 8,
+      "name": "Tellariten"
+    },
+    {
+      "id": 9,
+      "name": "Menschen"
+    },
+    {
+      "id": 10,
+      "name": "Cardassianer"
+    },
+    {
+      "id": 12,
+      "name": "Betazoiden"
+    },
+    {
+      "id": 11,
+      "name": "Trill"
+    }
+  ]
+}

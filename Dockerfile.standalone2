@@ -1,0 +1,17 @@
+# https://hub.docker.com/_/microsoft-devcontainers-javascript-node
+FROM mcr.microsoft.com/devcontainers/javascript-node:20
+#FROM ubuntu:20.04
+
+#RUN sudo apt update && sudo apt install nodejs npm 
+#RUN sudo npm install -g json-server
+
+WORKDIR /app
+
+COPY package.json .
+COPY data/ .
+RUN npm install
+EXPOSE  3000
+#ENTRYPOINT [ "npx json-server" ]
+#ENTRYPOINT [ "/bin/bash", "-c npx", "json-server", "startrek-db.json" ]
+#ENTRYPOINT [ "/usr/local/bin/npx", "json-server", "startrek-db.json" ]
+ENTRYPOINT [ "/usr/local/bin/npx", "json-server", "--watch", "startrek-db.json" ]

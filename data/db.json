@@ -1,0 +1,35 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "planets": [
+      { "id": 1, "name": "Earth" },
+      { "id": 2, "name": "Talos IV" },
+      { "id": 3, "name": "Rigel VII" },
+      { "id": 4, "name": "Risa" },
+      { "id": 5, "name": "Romulus" },
+      { "id": 6, "name": "Bajor I-IX" },
+      { "id": 7, "name": "Barisa Prime" },
+      { "id": 8, "name": "Benthos IV" },
+      { "id": 9, "name": "Vulcan" },
+      { "id": 10, "name": "Cardassia" }
+    ],
+    "people":[
+      { "id": 1, "name": "Antaraner" },
+      { "id": 2, "name": "Ba'ku" },
+      { "id": 3, "name": "Bajoraner" },
+      { "id": 4, "name": "Cardassianer" },
+      { "id": 5, "name": "Romulaner" },
+      { "id": 6, "name": "Denobulaner" },
+      { "id": 7, "name": "Ferengi" },
+      { "id": 8, "name": "Tellariten" },
+      { "id": 9, "name": "Menschen" },
+      { "id": 10, "name": "Cardassianer" },
+      { "id": 12, "name": "Betazoiden" },
+      { "id": 11, "name": "Trill" }
+    ],
+    "profile": { "name": "typicode" }
+  }
