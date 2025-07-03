@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Startrek",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

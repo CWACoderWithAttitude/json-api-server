@@ -5,7 +5,7 @@ meta {
 }
 
 get {
-  url: http://localhost:4444/planets
+  url: http://localhost:4444
   body: none
   auth: inherit
 }
@@ -17,12 +17,33 @@ script:post-response {
     { field: "id", filter: true, floatingFilter: true },
     { field: "name", filter: true, floatingFilter: true },
     { field: "classification", filter: true, floatingFilter: true },
-    { field: "population", filter: true, floatingFilter: true }
+    { field: "population", filter: true, floatingFilter: true   }
   ];
-   
+  const todosColumnDefinitions = [
+    { field: "id", filter: true, floatingFilter: true },
+    { field: "title", filter: true, floatingFilter: true },
+    { field: "assignedPeople['givenname]", filter: true, floatingFilter: true },
+  ];
+  
+  const projectsColumnDefinitions = [
+    { field: "id", filter: true, floatingFilter: true },
+    { field: "title", filter: true, floatingFilter: true },
+  ];
+  
+  
   bru.visualize('table', {
     name: 'Planets',
     provider: 'ag-grid',
-    props: { rowData: data, columnDefinitions: columnDefinitions }
+    props: { rowData: data, columnDefinitions: projectsColumnDefinitions }
+  });
+  bru.visualize('table', {
+    name: 'todos',
+    provider: 'ag-grid',
+    props: { rowData: data, columnDefinitions: todosColumnDefinitions }
+  });
+  bru.visualize('table', {
+    name: 'Projects',
+    provider: 'ag-grid',
+    props: { rowData: data, columnDefinitions: todosColumnDefinitions }
   });
 }

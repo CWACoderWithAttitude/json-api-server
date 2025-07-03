@@ -14,3 +14,7 @@ A startpage is generated [http://localhost:4444](http://localhost:4444)
 ## Test Data
 
 Test data planets taken from  [here](https://memory-alpha.fandom.com/wiki/Category:Planets?from=B). People oand groups taken from [here](https://de.wikipedia.org/wiki/Völker_und_Gruppierungen_im_Star-Trek-Universum). Most of the info is generate by [Github Copilot](https://github.com/copilot/)
+
+## LinkList
+* [API-Testing mit Bruno API Client: Der neue Sheriff in der API-Stadt](https://www.qytera.de/blog/api-testing-tool-bruno)
+* [Postmanm 2 OpenAPI](https://singhsaksham.medium.com/create-openapi-spec-from-postman-collection-using-node-js-718856d54327)

@@ -1,0 +1,61 @@
+meta {
+  name: create new planet
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:{{port}}/planets
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "id": {{new_planet_id}},
+      "name": "{{new_planet_name}}",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    }
+}
+
+assert {
+  res.status: eq 200
+  ~res.body: isJson
+}
+
+script:pre-request {
+  function getRandomInt(min, max) {
+    const minCeiled = Math.ceil(min);
+    const maxFloored = Math.floor(max);
+    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
+  };
+  const { v4: uuidv4 } = require('uuid');
+  const inputName=uuidv4();
+  bru.setVar("new_planet_name", inputName);
+  bru.setVar("new_planet_id", Math.round(Math.random() * 100000000));
+  req.body.id = getRandomInt(1000, 99999);
+}
+
+script:post-response {
+  
+    function onResponse(res) {
+      let data = res.getBody();
+      bru.setVar("planet_id", data.id);
+    }
+    
+    onResponse(res);
+  
+}

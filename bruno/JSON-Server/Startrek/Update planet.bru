@@ -1,0 +1,32 @@
+meta {
+  name: Update planet
+  type: http
+  seq: 3
+}
+
+patch {
+  url: http://localhost:{{port}}/planets/999
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "id": 999,
+      "name": "Zeti Prime2",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    }
+}

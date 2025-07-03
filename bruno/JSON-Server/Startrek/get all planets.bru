@@ -1,0 +1,34 @@
+meta {
+  name: get all planets
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:{{port}}/planets
+  body: none
+  auth: inherit
+}
+
+script:post-response {
+  const data = res.body
+  
+  const columnDefinitions = [
+    { field: "id", filter: true, floatingFilter: true },
+    { field: "name", filter: true, floatingFilter: true },
+    { field: "classification", filter: true, floatingFilter: true },
+    { field: "population", filter: true, floatingFilter: true   },
+    { field: "location", filter: true, floatingFilter: true   },
+    { field: "government", filter: true, floatingFilter: true   },
+    { field: "capital", filter: true, floatingFilter: true   },
+    { field: "surface_composition", filter: true, floatingFilter: true   },
+    { field: "atmosphere", filter: true, floatingFilter: true   },
+    { field: "gravity", filter: true, floatingFilter: true   }
+  ];
+  
+  bru.visualize('table', {
+    name: 'Planets',
+    provider: 'ag-grid',
+    props: { rowData: data, columnDefinitions: columnDefinitions }
+  });
+}

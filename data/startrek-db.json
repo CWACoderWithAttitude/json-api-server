@@ -1105,6 +1105,96 @@
       "atmosphere": "Standard Class-M",
       "gravity": "1.0 G",
       "climate": "Temperate"
+    },
+    {
+      "id": 999,
+      "name": "Zeti Prime2",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    },
+    {
+      "id": 1000,
+      "name": "Zeti Prime",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    },
+    {
+      "id": 1001,
+      "name": "Zeti Prime",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    },
+    {
+      "id": 47916132,
+      "name": "Zeti Prime",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
+    },
+    {
+      "id": 22141596,
+      "name": "69d8fe5a-9220-4851-b75d-f97cb4aca07a",
+      "classification": "M-Class",
+      "location": "Sol System, Alpha Quadrant",
+      "coordinates": "Sector 001",
+      "population": "9.6 billion (2373)",
+      "government": "United Earth (Federation Member)",
+      "capital": "Paris, France",
+      "notable_features": [
+        "Birthplace of humanity",
+        "Starfleet Headquarters",
+        "Federation capital"
+      ],
+      "surface_composition": "71% water, 29% land",
+      "atmosphere": "Nitrogen-oxygen",
+      "gravity": "1.0 G (standard)"
     }
   ],
   "people": [
