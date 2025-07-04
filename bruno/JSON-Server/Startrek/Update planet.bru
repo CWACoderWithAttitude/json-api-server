@@ -5,7 +5,7 @@ meta {
 }
 
 patch {
-  url: http://localhost:{{port}}/planets/{{planet_id}}
+  url: {{scheme}}://{{host}}:{{port}}/planets/{{planet_id}}
   body: json
   auth: inherit
 }
