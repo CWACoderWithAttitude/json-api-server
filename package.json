@@ -2,7 +2,7 @@
   "scripts": {
     "db": "json-server --watch data/db.json --port 3000 --host 0.0.0.0",
     "startrek": "json-server --watch data/startrek-db.json --port 3000 --host 0.0.0.0",
-    "runStartrekCollection": "bru run --reporter-json results.json --reporter-junit results.xml --reporter-html results.html"
+    "cli_test": "bru run --reporter-json results.json --reporter-junit results.xml --reporter-html results.html bruno/JSON-Server/Startrek"
   },
   "dependencies": {
     "@usebruno/cli": "^2.6.1",

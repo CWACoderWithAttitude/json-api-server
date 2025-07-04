@@ -32,8 +32,8 @@ body:json {
 }
 
 assert {
-  res.status: eq 200
-  ~res.body: isJson
+  res.status: eq 201
+  res.body: isJson
 }
 
 script:pre-request {

@@ -5,15 +5,15 @@ meta {
 }
 
 patch {
-  url: http://localhost:{{port}}/planets/999
+  url: http://localhost:{{port}}/planets/{{planet_id}}
   body: json
   auth: inherit
 }
 
 body:json {
   {
-      "id": 999,
-      "name": "Zeti Prime2",
+      "id": {{planet_id}},
+      "name": "{{new_planet_name}}_Update",
       "classification": "M-Class",
       "location": "Sol System, Alpha Quadrant",
       "coordinates": "Sector 001",
